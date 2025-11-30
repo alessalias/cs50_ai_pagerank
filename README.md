@@ -1,4 +1,4 @@
-# PageRank
+# 🧠 PageRank
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![CS50 AI](https://img.shields.io/badge/CS50-AI_Project-orange)
