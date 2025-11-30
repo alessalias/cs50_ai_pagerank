@@ -169,5 +169,4 @@ This is a personal choice to make the code more **didactic**, traceable, and sel
 
 ## 📄 License
 
-This implementation is created for educational purposes as part of the CS50 AI course.  
-Feel free to use, modify, or expand upon it.
+This project is open-source and available under the MIT License.
