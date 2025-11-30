@@ -30,7 +30,7 @@ pagerank/
 
 # 🚀 How It Works
 
-This project builds a simplified *web graph* and computes PageRank in two ways.
+This project builds a simplified *web graph* and computes PageRank in two ways: by Sampling (see 3.) and by Iteration (see 4.)
 
 ---
 
