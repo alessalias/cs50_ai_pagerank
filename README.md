@@ -28,13 +28,13 @@ pagerank/
 
 ---
 
-# 🚀 How It Works
+## 🧩 How It Works
 
 This project builds a simplified *web graph* and computes PageRank in two ways: by Sampling (see 3.) and by Iteration (see 4.)
 
 ---
 
-## 1. Crawl the Corpus
+### 1. Crawl the Corpus
 
 The `crawl(directory)` function:
 
@@ -55,7 +55,7 @@ Each key is a page; each value is the set of pages it links to.
 
 ---
 
-## 2. Transition Model
+### 2. Transition Model
 
 `transition_model(corpus, page, damping_factor)` produces a probability distribution over next pages:
 
@@ -77,7 +77,7 @@ This is used for sampling.
 
 ---
 
-## 3. Sampling PageRank
+### 3. Sampling PageRank
 
 `sample_pagerank(corpus, d, n)`:
 
@@ -92,7 +92,7 @@ This method is **approximate**, but converges with large `n`.
 
 ---
 
-## 4. Iterative PageRank
+### 4. Iterative PageRank
 
 `iterate_pagerank(corpus, d)`:
 
@@ -111,7 +111,7 @@ This method is **deterministic**, mathematically grounded, and converges to true
 
 ---
 
-# 🧪 Usage
+## 🧪 Usage
 
 Run the program by providing a corpus directory:
 
@@ -139,7 +139,7 @@ You’ll notice the two methods converge toward similar values.
 
 ---
 
-# 🧠 Notes on Code Style
+## 🧠 Notes on Code Style
 
 This project deliberately contains:
 
@@ -154,7 +154,7 @@ This is a personal choice to make the code more **didactic**, traceable, and sel
 
 ---
 
-# 📘 Concepts Covered
+## 📘 Concepts Covered
 
 - Graph modeling from real data
 - Random surfer model
@@ -167,7 +167,7 @@ This is a personal choice to make the code more **didactic**, traceable, and sel
 
 ---
 
-# 📄 License
+## 📄 License
 
 This implementation is created for educational purposes as part of the CS50 AI course.  
 Feel free to use, modify, or expand upon it.
