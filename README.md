@@ -21,7 +21,7 @@ This style is chosen to help my future self re-understand the code, the algorith
 ```
 pagerank/
 │
-├── corpus/            # Directory containing .html pages used as the graph
+├── corpus0/1/2        # Directories containing .html pages used as the graph
 ├── pagerank.py        # Main implementation (sampling + iteration)
 └── README.md          # This file
 ```
